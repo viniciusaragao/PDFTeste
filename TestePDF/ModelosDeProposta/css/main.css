@@ -95,19 +95,26 @@ textarea {
 
 body { padding: 25px 0;}
 h1 { font-size: 18px; font-weight: 600; letter-spacing: 0.3px; line-height: 25px; text-transform: uppercase; margin-left: -13px;} 
-h2 { border-bottom: 2px solid #000000; font-size: 16px; line-height: 20px; text-indent: 1px; text-transform: uppercase; margin: 5px 3px 5px 7px; }  
+h2 { border-bottom: 2px solid #000000; font-size: 16px; line-height: 20px; text-indent: 1px; margin: 5px 3px 5px 7px; } 
+h3 { font-size: 16px; line-height: 20px; text-indent: 1px; margin: 5px 3px 5px 7px; } 
+ 
 
 #container { width:1000px; }
 [class*="field"] { border:1px solid #000; border-top:0px; height: 25px; float:left; margin:16px 0 0 7px; }
 [class*="50field"] { height:50px; }
-[class*="field"] span { margin:0 6px; position: relative; top: -17px; display:block; }
+[class*="field"] span { margin:0 6px; position: relative; top: -16px; display:block; }
 [class*="field"] span.internal { top:7px; }
 [class*="field"] span:last-child { font-size:12px;  }
 [class*="field"] ul { font-size: 14px; margin:0; list-style-type:none;   }
 [class*="field"] ul li { background: url("../img/square.png") no-repeat 2px 2px  !important; line-height: 14px; padding:0 5px 0 14px; display:inline-block; }
-[class*="field"] ul[class*="pull-right"] { margin: -27px 4px 0; display:block; }
-[class*="field"] ul[class*="pull-right"] li { display:block; }
+[class*="field"] ul[class*="pull-right"] { margin: -24px 4px 0; }
+[class*="field"] ul[class*="pull-left"] { margin: 0 4px; position: relative; top: -6px; }
+[class*="field"] ul[class*="pull"] { display:block; }
+[class*="field"] ul[class*="pull"] li { display:block; }
 [class*="field"] ul li.checked { background: url("../img/square-checked.png") no-repeat scroll 2px 2px!important; }
+
+.sub { border-bottom: 1px solid #000000; position: relative; top: -21px; width: 50%; }
+.text { margin-right: 3px; position: relative; top: -17px; }
 
 .field45  { width:45px; }
 .field100 { width:100px; }
