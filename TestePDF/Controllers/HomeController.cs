@@ -9,8 +9,10 @@ namespace TestePDF.Controllers
 {
     public class HomeController : Controller
     {
-        public FileResult Index()
+        public ActionResult Index()
         {
+            return View();
+
             PdfConverter pdf = new PdfConverter();
             byte[] bytes = pdf.GetPdfBytesFromUrl("http://localhost:53559/ModelosDeProposta/");
 

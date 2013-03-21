@@ -1,319 +1,815 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Propostas</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Propostas</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("input").focus(function () {
+                $(this).parent().parent().css("background-color", "#FFFFBF");
+            });
+            
+            $("input").blur(function () {
+                $(this).parent().parent().css("background-color", "transparent");
+            });
+        });
+    </script>
+
 </head>
 <body>
-<div id="container" class="container">
+    <div id="container" class="container">
 
-<div class="span">
+        <div class="span form">
 
-    <div class="row">
-        <div class="span8">
-             <h1>Proposta de inscrição<br />
-             Planos de benefícios previdenciários ABEPOMPREV</h1>
-        </div>
-        <div class="span4 pull-right">
-           <img src="img/logo.png" />
-        </div>
-    </div>
-    
-    <div class="row">
-         <div class="field140">
-            <span>N° da Instituidora</span>
-            <span>000.000.123</span>
-         </div>
-         
-         <div class="field450">
-            <span>Nome da Associação Instituidora</span>
-            <span class="text">Fundação Xyz & cia</span>
-         </div>
-         
-         <div class="field380">
-            <span>Nº da Proposta</span>
-            <span>4109.1233.6666.0000</span>
-         </div>
-    </div>
-  
-    <div class="row">
-      <h2>QUALIFICAÇÃO DO PROPONENTE</h2>
-    
-         <div class="field600">
-            <span>Nome Completo do Proponente</span>
-            <span></span>
-         </div>
-   
-         <div class="field380">
-            <span>CPF</span>
-            <span></span>
-            
-            <ul class="pull-right">
-              <li class="checked">Titular</li>
-              <li>Dependente</li>
-            </ul>
-         </div>
+            <div class="row">
+                <div class="span8">
+                    <h1>Proposta de inscrição<br />
+                        Planos de benefícios previdenciários ABEPOMPREV</h1>
+                </div>
+                
 
-         <div class="field240">
-            <span>Natureza do Doc. Identificação</span>
-            <span></span>
-         </div>
-   
-         <div class="field240">
-            <span>Número</span>
-            <span></span>
-         </div>
-         
-         <div class="field240">
-            <span>Órgão Expedidor</span>
-            <span></span>
-         </div>
-         
-         <div class="field240">
-            <span>Data de Expedição</span>
-            <span></span>
-         </div>
+                <div class="span4 pull-right">
+                    <img src="img/logo.png" class="logo pull-right" />
+                </div>
 
-         <div class="field240">
-            <span>Data de Nascimento</span>
-            <span></span>
-         </div>
-   
-         <div class="field240">
-            <span>Naturalidade</span>
-            <span></span>
-         </div>
-         
-         <div class="field240">
-            <span>Nacionalidade</span>
-            <span></span>
-         </div>
-         
-         <div class="field160">
-            <span>Idade</span>
-            <span></span>
-         </div>
-         
-         <div class="field">
-            <span>Sexo</span>
-            <span>
-              <ul class="inline">
-                <li>F</li>
-                <li class="checked">M</li>
-              </ul>
-            </span>
-         </div>
-         
-         <div class="field400">
-            <span>Estado Civil</span>
-            <span>
-              <ul>
-                <li>Solteiro</li>
-                <li class="checked">Casado</li>
-                <li>Separado</li>
-                <li>Divorciado</li>
-                <li>Viúvo</li>
-              </ul>
-            </span>
-         </div>
-         
-         <div class="field580">
-            <span>Ocupação</span>
-            <span></span>
-         </div>
-         
-         <div class="field990">
-            <span>Nome do Cônjuge</span>
-            <span></span>
-         </div>
-         
-         <div class="field990">
-            <span>Renda mensal</span>
-             <span>
-              <ul>
-                <li>Até R$ 1.000,00</li>
-                <li class="checked">De R$1.000,01 a R$ 3.000,00</li>
-                <li>De R$ 3.000,01 a R$ 5.000,00</li>
-                <li>Acima de R$ 5.000,00</li>
-              </ul>
-            </span>
-         </div>
-         
-         <div class="field700">
-            <span>Endereço Residencial</span>
-            <span></span>
-         </div>
-   
-         <div class="field280">
-            <span>Bairro</span>
-            <span></span>
-         </div>
-      
-      
-         <div class="field380">
-            <span>Cidade</span>
-            <span></span>
-         </div>
-         
-         <div class="field45">
-            <span>UF</span>
-            <span></span>
-         </div>
-         
-         <div class="field240">
-            <span>CEP</span>
-            <span></span>
-         </div>
-         
-         <div class="field">
-            <span>DDD</span>
-            <span></span>
-         </div>
-         
-         <div class="field240">
-            <span>Telefone 1</span>
-            <span></span>
-         </div>
-      
-         <div class="field280">
-            <span>Telefone 2</span>
-            <span></span>
-         </div>
-        
-         <div class="field700">
-            <span>Endereço Comercial</span>
-            <span></span>
-         </div>
-   
-         <div class="field250">
-            <span>Bairro</span>
-            <span></span>
-         </div>
-         
-         <div class="field450">
-            <span>Cidade</span>
-            <span></span>
-         </div>
-      
-         <div class="field45">
-            <span>UF</span>
-            <span></span>
-         </div>
-        
-         <div class="field215">
-            <span>CEP</span>
-            <span></span>
-         </div>
-         
-         <div class="field">
-            <span>DDD</span>
-            <span></span>
-         </div>
-         
-         <div class="field240">
-            <span>Telefone 1</span>
-            <span></span>
-         </div>
-      
-         <div class="field280">
-            <span>Telefone 2</span>
-            <span></span>
-         </div>
-        
-         <div class="field395">
-            <span>E-mail</span>
-            <span></span>
-         </div> 
-         
-         <div class="50field field700">
-            <span>Nome Completo do Representante Legal (obrigatório se o proponente for menor de idade ou se não for o titular da Associação Instituidora)</span>
-            <span></span>
-         </div> 
-         
-         <div class="50field field280">
-            <span>CPF do Representante Legal</span>
-            <span></span>
-         </div> 
-         
-         
-         <div class="field700">
-            <span>Filiação</span>
-            <span></span>
-         </div> 
-         
-         <div class="field280">
-            <span>Endereço para Correspondência</span>
-            <span>              
-               <ul>
-                <li>Residencial</li>
-                <li class="checked">Comercial</li>
-              </ul></span>
-         </div>    
-  </div>
-  
-     <div class="row">
-      <h2>PLANO DE BENEFÍCIOS POR CONTRIBUIÇÃO DEFINIDA "CD" - Baseado exclusivamente nos recursos constituídos</h2>
-      
-         <div class="field410">
-            <span class="internal">RENDA PROGRAMADA NÃO VITALÍCIA</span>
-         </div> 
-         
-         <div class="field280">
-            <span>Idade para Entrada em Benefício</span>
-            <span></span>
-            <div class="text pull-right">
-               anos
-            </div>
-         </div> 
-         
-         <div class="field280">
-            <span>Valor da Contribuição (1)</span>
-            <span>R$</span>
-         </div> 
-      
-         <div class="50field field380">
-            <span>Tributação</span>
-            <span></span>
-            
-            <ul class="pull-left">
-              <li class="checked">Alíquotas Progressivas</li>
-              <li>Alíquotas Regressivas</li>
-            </ul>
-            
-            <div class="pull-left sub"><span>Rubrica</span>
-            <span>&nbsp;</span>
-            
-            </div>
-         </div>
-         
-         
-         <div class="50field field600">
-            <span>Taxa mensal de carregamento do plano: 2%. O valor da contribuição
+                <div class="field140">
+                    <span>N° da Instituidora</span>
+                    <span></span>
+                </div>
+
+                <div class="field450">
+                    <span>Nome da Associação Instituidora</span>
+                    <span class="text">Fundação Xyz & cia</span>
+                </div>
+
+                <div class="field380">
+                    <span>Nº da Proposta</span>
+                    <span>4109.1233.6666.0000</span>
+                </div>
+
+                <h2>QUALIFICAÇÃO DO PROPONENTE</h2>
+
+                <div class="field600 error">
+                    <span>Nome Completo do Proponente</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field380">
+                    <span>CPF</span>
+                    <span><input type="text" />
+                        <ul class="pull-right">
+                            <li><label><input type="radio" name="cpf" />Titular</label></li>
+                            <li><label><input type="radio" name="cpf" />Dependente</label></li>
+                        </ul>
+                    </span>
+                </div>
+
+                <div class="field240">
+                    <span>Natureza do Doc. Identificação</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Número</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Órgão Expedidor</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Data de Expedição</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Data de Nascimento</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Naturalidade</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Nacionalidade</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field160">
+                    <span>Idade</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field75">
+                    <span>Sexo</span>
+                    <span>
+                        <ul class="inline">
+                            <li><label><input type="radio" name="sexo" checked="checked" />F</label></li>
+                            <li><label><input type="radio" name="sexo" />M</label></li>
+                        </ul>
+                    </span>
+                </div>
+
+                <div class="field400">
+                    <span>Estado Civil</span>
+                    <span>
+                        <ul>
+                            <li><label><input type="radio" name="estadoCivil" checked="checked" />Solteiro</label></li>
+                            <li><label><input type="radio" name="estadoCivil" />Casado</label></li>
+                            <li><label><input type="radio" name="estadoCivil" />Separado</label></li>
+                            <li><label><input type="radio" name="estadoCivil" />Divorciado</label></li>
+                            <li><label><input type="radio" name="estadoCivil" />Viúvo</label></li>
+                        </ul>
+                    </span>
+                </div>
+
+                <div class="field580">
+                    <span>Ocupação</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field990">
+                    <span>Nome do Cônjuge</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field990">
+                    <span>Renda mensal</span>
+                    <span>
+                        <ul>
+                          <li><label><input type="radio" name="rendamensal" />Até R$ 1.000,00</label></li>
+                          <li><label><input type="radio" name="rendamensal" />De R$1.000,01 a R$ 3.000,00</label></li>
+                          <li><label><input type="radio" name="rendamensal" />De R$ 3.000,01 a R$ 5.000,00</label></li>
+                          <li><label><input type="radio" name="rendamensal" />Acima de R$ 5.000,00</label></li>
+                        </ul>
+                    </span>
+                </div>
+
+                <div class="field700">
+                    <span>Endereço Residencial</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field280">
+                    <span>Bairro</span>
+                    <span><input type="text" /></span>
+                </div>
+
+
+                <div class="field380">
+                    <span>Cidade</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field45">
+                    <span>UF</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>CEP</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field45">
+                    <span>DDD</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Telefone 1</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field280">
+                    <span>Telefone 2</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field700">
+                    <span>Endereço Comercial</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field250">
+                    <span>Bairro</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field450">
+                    <span>Cidade</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field45">
+                    <span>UF</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field215">
+                    <span>CEP</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field45">
+                    <span>DDD</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field240">
+                    <span>Telefone 1</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field280">
+                    <span>Telefone 2</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field395">
+                    <span>E-mail</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="50field field700">
+                    <span>Nome Completo do Representante Legal (obrigatório se o proponente for menor de idade ou se não for o titular da Associação Instituidora)</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="50field field280">
+                    <span>CPF do Representante Legal</span>
+                    <span><input type="text" /></span>
+                </div>
+
+
+                <div class="field700">
+                    <span>Filiação</span>
+                    <span><input type="text" /></span>
+                </div>
+
+                <div class="field280">
+                    <span>Endereço para Correspondência</span>
+                    <span>
+                        <ul>
+                            <li><label><input type="radio" name="enderecoparacorrespondencia" />Residencial</label></li>
+                            <li><label><input type="radio" name="enderecoparacorrespondencia" />Comercial</label></li>
+                        </ul>
+                    </span>
+                </div>
+
+                <h2>PLANO DE BENEFÍCIOS POR CONTRIBUIÇÃO DEFINIDA "CD" - Baseado exclusivamente nos recursos constituídos</h2>
+
+                <div class="field410">
+                    <span class="internal">RENDA PROGRAMADA NÃO VITALÍCIA</span>
+                </div>
+
+                <div class="field280">
+                    <span>Idade para Entrada em Benefício</span>
+                    <span><input type="text" /></span>
+                    <div class="text pull-right">
+                        anos
+                    </div>
+                </div>
+
+                <div class="field280">
+                    <span>Valor da Contribuição (1)</span>
+                    <span>R$<input type="text" /></span>
+                </div>
+
+                <div class="50field field380">
+                    <span>Tributação</span>
+                    <span></span>
+
+                    <ul class="pull-left">
+                        <li class="checked">Alíquotas Progressivas</li>
+                        <li>Alíquotas Regressivas</li>
+                    </ul>
+
+                    <div class="pull-left sub">
+                        <span>Rubrica</span>
+                        <span>&nbsp;</span>
+
+                    </div>
+                </div>
+
+
+                <div class="50field field600">
+                    <span>&nbsp;</span>
+                    <span>Taxa mensal de carregamento do plano: 2%. O valor da contribuição
 será atualizado, anualmente, no mês de janeiro, pela variação do INPC.</span>
-            <span></span>
-         </div> 
-         
-         <h3>BENEFICIÁRIOS DO PLANO EM CASO DE MORTE (inexistindo indicação de beneficiários, será observado o art. 792 do Código Civil e todos os custos do processo serão de responsabilidade dos beneficiários).</h3>
-     </div> 
- 
-     <div class="row">
+                </div>
 
-      
-      </div> 
-  
-  
-  </div>
-  <br><br><br><br>
-</div>
+                <h3>BENEFICIÁRIOS DO PLANO EM CASO DE MORTE (inexistindo indicação de beneficiários, será observado o art. 792 do Código Civil e todos os custos do processo serão de responsabilidade dos beneficiários).</h3>
+                <div class="field320">
+                    <span>Nome completo</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Data de Nascimento</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Parentesco*</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Participação</span>
+                    <span></span>
+                </div>
+
+                <div class="field320">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="field320">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="pull-right description-line">*A-Avô(ó); C-Cônjuge; F-Filho(a); H-Companheiro(a); I-Irmão(ã); M-Mãe;N-Neto(a); P-Pai; S-Sobrinho(a); T-Tio(a); U-Nenhum</div>
+
+                <h2>COBERTURAS DE RISCO</h2>
+                <div class="field320">
+                    <span>Benefício</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Nº Processo SUSEP</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Valor do Pecúlio</span>
+                    <span>R$</span>
+                </div>
+                <div class="field215">
+                    <span>Valor da Contribuição</span>
+                    <span>R$</span>
+                </div>
+
+                <div class="field320">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="field540">
+                    <span>Pecúlios garantidos pela Mongeral Aegon Seguros e Previdência S.A.</span>
+                    <span>CNPJ: 33.608.308/0001-73 &nbsp;&nbsp;&nbsp;&nbsp;Carregamento: 30%</span>
+                </div>
+                <div class="field215">
+                    <span>Total da Parcela</span>
+                    <span>Adicional de Risco (2)</span>
+                </div>
+                <div class="field215">
+                    <span>&nbsp;</span>
+                    <span>R$</span>
+                </div>
+
+                <div class="description-line">
+                    O valor da contribuição para o(s) pecúlio(s) será atualizado, anualmente, no mês de janeiro, pela variação do INPC e em função da 
+nova idade atingida pelo participante. O registro desses planos na SUSEP não implica, por parte da autarquia, incentivo ou 
+recomendação para sua comercialização.
+                </div>
+
+                <h2>DADOS PARA PAGAMENTO</h2>
+                <div class="line-check checked">
+                    <b>Desconto em Folha</b>, preferencialmente, <b>mas caso o desconto não seja efetuado pelo Órgão Averbador, autorizo o 
+débito em conta corrente para suprir as parcelas não descontadas</b> e não ser prejudicado com a suspensão da cobertura.
+                </div>
+                <div class="field260 no-border">
+                    <span>&nbsp;</span>
+                    <span>
+                        <ul>
+                            <li>Débito em Conta</li>
+                            <li class="checked">Boleto Bancário</li>
+                        </ul>
+                    </span>
+                </div>
+
+                <div class="field240">
+                    <span>Dia do Vencimento</span>
+                    <span></span>
+                </div>
+                <div class="field249">
+                    <span>Total da Contribuição - R$ (1+2)</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Matrícula do Órgão Pagador</span>
+                    <span></span>
+                </div>
+
+
+                <div class="field600">
+                    <span>Nome do Correntista (em caso de débito em conta)</span>
+                    <span></span>
+                </div>
+
+                <div class="field380">
+                    <span>CPF do Correntista</span>
+                    <span></span>
+                </div>
+
+                <div class="field110">
+                    <span>Nº do Banco</span>
+                    <span></span>
+                </div>
+                <div class="field135">
+                    <span>Nome do Banco</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Nº da Agência</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Nº da Conta Corrente</span>
+                    <span></span>
+                </div>
+
+                <div class="field280">
+                    <span>Autorização para desconto em folha e débito em conta no verso da 2º via</span>
+                </div>
+
+                <div class="break-page description-line pull-right">Destinatário da via: MONGERAL AEGON</div>
+
+                <div class="description-line">
+                    A aceitação estará sujeita à análise do risco e a MONGERAL AEGON terá o prazo de até 15 dias, contados da data que vier a ser 
+             registrada pelo relógio protocolo, para manifestar-se em relação à aceitação ou recusa desta proposta. Este prazo será suspenso 
+             quando necessária a requisição de outros documentos ou dados para análise do risco. Essa eventual suspensão terminará quando 
+             forem protocolados os documentos ou dados para análise do risco. Caso não haja manifestação de recusa desta proposta pela 
+             MONGERAL AEGON no prazo antes referido, a aceitação da proposta se dará automaticamente. No caso de não aceitação da 
+             proposta, o valor aportado será devolvido, atualizado até a data da efetiva restituição, de acordo com a regulamentação em vigor.
+                </div>
+
+                <h2>PARA USO DA MONGERAL AEGON</h2>
+                <div class="field380">
+                    <span>Nome do Proponente</span>
+                    <span></span>
+                </div>
+
+
+                <div class="field280">
+                    <span>CPF</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Código do Órgão</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>A partir de</span>
+                    <span></span>
+                </div>
+
+
+                <div class="field150">
+                    <span>Convênio Adesão</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Ação de Marketing</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Alternativa</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Sucursal</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Diretor Regional</span>
+                    <span></span>
+                </div>
+
+                <div class="field190">
+                    <span>Gerente de Sucursal</span>
+                    <span></span>
+                </div>
+
+
+                <div class="field150">
+                    <span>Gerente comecial</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Agente</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Corretor 1</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Corretor 2</span>
+                    <span></span>
+                </div>
+
+                <div class="field150">
+                    <span>Agente Fidelização</span>
+                    <span></span>
+                </div>
+
+                <div class="field190">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <h2>PARA USO DO CORRETOR</h2>
+                <div class="field540">
+                    <span>Nome do Corretor</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Código SUSEP</span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span>Assinatura</span>
+                    <span></span>
+                </div>
+
+                <div class="field540">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="field215">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <h2>PARA USO DO CORRETOR</h2>
+                <div class="description-line">Declaração Pessoal de Saúde (nunca deve ser assinada em branco).</div>
+
+                <table>
+                    <tr>
+                        <td>1. Encontra-se com algum problema de saúde ou faz uso de medicamento atualmente? Especificar.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2. Sofre ou já sofreu de doenças do coração, insuficiência cardíaca, hipertensão arterial, problemas circulatórios ou cardiovasculares? Informar qual.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3. Sofre de doenças do sangue ou de diabetes? Informar qual.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4. Sofre de deficiência de órgãos, membros ou sentidos? Informar qual.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5. Foi submetido a alguma intervenção cirúrgica, inclusive biópsia ou punção, ou esteve internado em regime hospitalar para tratamento médico nos últimos 5 anos? Especificar.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6. Sofre ou já sofreu de doenças do pulmão, enfisema, doenças do fígado, doenças do aparelho digestivo ou doenças renais? Informar qual.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7. Sofre ou já sofreu de tumores ou câncer ou já foi submetido a tratamento com radioterapia, quimioterapia ou outros tratamentos auxiliares? Especificar.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8. É portador do vírus HIV?</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>9. Encontra-se afastado da atividade de trabalho por motivo de doença ou aposentadoria por invalidez?</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10. É fumante? Qual a quantidade média de cigarros por dia?</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11. Indique seu peso e altura.</td>
+                        <td>&nbsp;&nbsp;&nbsp; _____kg _____m</td>
+                    </tr>
+                    <tr>
+                        <td>12. Pratica pára-quedismo, motociclismo, boxe, asa-delta, rodeio, alpinismo, voo livre, automobilismo, mergulho ou exerce atividade, em caráter profissional ou amador, a bordo de aeronaves que não sejam de linhas regulares? Especifique. </td>
+                        <td></td>
+                    </tr>
+
+                </table>
+
+                <div class="description-line clearfix">Declaro ter recebido o exemplar do Regulamento do ABEPOMPREV e do Estatuto da Mongeral Aegon Fundo de Pensão, bem como o Guia do Participante. Declaro também que tive prévio e expresso conhecimento e estou de acordo com os termos dos regulamentos dos planos de pecúlio, contratados pela Mongeral Aegon Fundode Pensão na MONGERAL AEGON, e por mim custeados, que determinam como único beneficiário a Mongeral Aegon Fundo de Pensão,o que não poderá ser alterado. Entendo que a responsabilidade pelo pagamento da renda mensal de aposentadoria programada, aposentadoria por invalidez e pensão será da Mongeral Aegon Fundo de Pensão. Desta maneira, reconheço que a minha assinatura na presente proposta implica na minha automática adesão aos referidos regulamentos, sabendo, desde já, que a aceitação dos planos de risco está sujeita à análise do risco. Declaro, ainda, que as informações por mim fornecidas são verdadeiras e ciente estou de que quaisquer omissões ou falsidades tornarão nula esta proposta, nos termos do Art. 766 do Código Civil, podendo vir a responder civil e criminalmente pelas inveracidades eventualmente verificadas. Autorizo, desde já, médicos, hospitais, clínicas ou quaisquer entidades públicas ou privadas a prestar à MONGERAL AEGON informações relacionadas ao meu estado de saúde ou moléstias que eu possa sofrer ou ter sofrido, bem como resultados de exames e tratamentos instituídos, isentando-os, desdejá, de qualquer responsabilidade que implique em ofensa ou sigilo profissional.</div>
+
+                <div class="dash400">
+                    Local e Data
+                </div>
+
+                <div class="dash400">
+                    Assinatura do Proponente ou Representante Legal
+                </div>
+
+                <h2>PARA USO DA ASSOCIAÇÃO INSTITUIDORA</h2>
+                <div class="field280">
+                    <span>Conferido por</span>
+                    <span></span>
+                </div>
+
+                <div class="field280">
+                    <span>Nome</span>
+                    <span></span>
+                </div>
+
+                <div class="field410">
+                    <span>Assinatura</span>
+                    <span></span>
+                </div>
+
+                <h2>PARA USO DA Mongeral Aegon Fundo de Pensão</h2>
+                <div class="field280">
+                    <span>Conferido por</span>
+                    <span></span>
+                </div>
+
+                <div class="field280">
+                    <span>Visto</span>
+                    <span></span>
+                </div>
+
+                <div class="field410 no-border">
+                    <span>&nbsp;</span>
+                    <span>De acordo com a solicitação do proponente.</span>
+                </div>
+
+                <div class="dash400">
+                    Local e Data
+                </div>
+
+                <div class="dash400">
+                    Assinatura do Proponente ou Representante Legal
+                </div>
+
+                <div class="break-page"></div>
+
+                <h2>PARA USO DO CORRETOR</h2>
+                <div class="field280">
+                    <span>Nome do Corretor</span>
+                    <span></span>
+                </div>
+
+                <div class="field280">
+                    <span>Código SUSEP</span>
+                    <span></span>
+                </div>
+
+                <div class="field410">
+                    <span>Assinatura</span>
+                    <span></span>
+                </div>
+
+                <h2>DECLARAÇÕES DO PROPONENTE</h2>
+                <div class="description-line">Declaro ter recebido o exemplar do Regulamento do ABEPOMPREV e do Estatuto da Mongeral Aegon Fundo de Pensão, bem como o Guia do Participante. Declaro também que tive prévio e expresso conhecimento e estou de acordo com os termos dos regulamentos dos planos de pecúlio, contratados pela Mongeral Aegon Fundo de Pensão na MONGERAL AEGON, e por mim custeados, que determinam como único beneficiário a Mongeral Aegon Fundo de Pensão, o que não poderá ser alterado. Entendo que a responsabilidade pelo pagamento da renda mensal de aposentadoria programada, aposentadoria por invalidez e pensão será da Mongeral Aegon Fundo de Pensão. Desta maneira, reconheço que a minha assinatura na presente proposta implica na minha automática adesão aos referidos regulamentos, sabendo, desde já, que a aceitação dos planos de risco está sujeita à análise do risco. Declaro, ainda, que as informações por mim fornecidas são verdadeiras e ciente estou de que quaisquer omissões ou falsidades tornarão nula esta proposta, nos termos do Art. 766 do Código Civil, podendo vir a responder civil e criminalmente pelas inveracidades eventualmente verificadas. Autorizo, desde já, médicos, hospitais, clínicas ou quaisquer entidades públicas ou privadas a prestar à MONGERAL AEGON informações relacionadas ao meu estado de saúde ou moléstias que eu possa sofrer ou ter sofrido, bem como resultados de exames e tratamentos instituídos, isentando-os, desde já, de qualquer responsabilidade que implique em ofensa ou sigilo profissional.</div>
+
+                <div class="dash400">
+                    Local e Data
+                </div>
+
+                <div class="dash400">
+                    Assinatura do Proponente ou Representante Legal
+                </div>
+
+                <h2>AUTORIZAÇÃO DE DÉBITO EM CONTA CORRENTE*</h2>
+                <div class="description-line">Autorizo o banco designado no anverso a debitar na conta corrente, por mim indicada, o valor correspondente às contribuições do plano contratado nesta proposta. Estou ciente de que os débitos em conta corrente serão comandados tendo por base as informações enviadas diretamente pela Mongeral Aegon Fundo de Pensão ao banco. Comprometo-me, desde já, a manter saldo suficiente para a finalidade, isentando o banco de qualquer responsabilidade caso a conta não comporte o valor do documento a liquidar. Declaro-me ciente de que o banco poderá, mediante aviso, com antecedência mínima de 15 (quinze) dias do vencimento do encargo ou da próxima parcela, tornar sem efeito a presente autorização, reservando-me adotar o mesmo procedimento, quando do meu interesse. Declaro que as informações prestadas são verdadeiras, não havendo responsabilidade da Mongeral Aegon Fundo de Pensão ou do banco informado nesta proposta pela não efetivação dos débitos em função de informações incorretas.</div>
+
+                <div class="dash400">
+                    Local e Data
+                </div>
+
+                <div class="dash400">
+                    Assinatura do Correntista
+                </div>
+
+                <h2>AUTORIZAÇÃO DE DESCONTO EM FOLHA DE PAGAMENTO</h2>
+                <div class="description-line">Autorizo a instituição pagadora a efetuar a consignação em folha de pagamento do valor correspondente às contribuições do plano contratado nesta proposta. Estou ciente de que os débitos serão comandados tendo por base as informações enviadas diretamente pela Mongeral Aegon Fundo de Pensão ao setor respectivo junto à Instituição pagadora. Estou ciente, ainda, que outros documentos poderão ser necessários para efetivar o débito, dependendo das exigências da Instituição pagadora condicionado, também, à existência do convênio correspondente.</div>
+
+                <div class="dash400">
+                    Local e Data
+                </div>
+
+                <div class="dash400">
+                    Assinatura do Funcionário
+                </div>
+
+                <h2>PARA USO DA ASSOCIAÇÃO INSTITUIDORA</h2>
+                <div class="field280">
+                    <span>Conferido por</span>
+                    <span></span>
+                </div>
+
+                <div class="field280">
+                    <span>Nome</span>
+                    <span></span>
+                </div>
+
+                <div class="70field field410">
+                    <span>Espaço para Carimbo</span>
+                    <span></span>
+                </div>
+
+                <div class="field570 _2line">
+                    <span>Assinatura</span>
+                    <span></span>
+                </div>
+
+                <h2>PARA USO DA Mongeral Aegon Fundo de Pensão</h2>
+                <div class="field280">
+                    <span>Conferido em</span>
+                    <span></span>
+                </div>
+
+                <div class="field280">
+                    <span>Visto</span>
+                    <span></span>
+                </div>
+
+                <div class="dash400">
+                    Local e Data
+                </div>
+
+                <div class="dash400">
+                    Mongeral Aegon Fundo de Pensão
+                </div>
+
+
+                <div class="description-line">
+                    *Autorização provisória de débito em conta corrente até que seja firmado convênio para desconto em folha de pagamento. Nos termos do art. 4º, item V, do regulamento do ABEPOMPREV, o não recolhimento da contribuição básica por três meses consecutivos acarreta perda da condição de participante. Nos termos do art. 13, parágrafo 2º do regulamento do ABEPOMPREV, o não pagamento das contribuições de risco (invalidez e morte), até a data do vencimento implica na suspensão automática da cobertura. O extrato da conta individual estará disponível via site, na área restrita do participante.
+                </div>
+
+                <div id="footer">
+                    Mongeral Aegon Fundo de Pensão - CNPJ: 07.146.074/0001-80 - Telefone: (21) 3722 2548 Fax: (21) 3722 2321
+                    <br />
+                    email: rvolpi@mongeralaegon.com.br<br />
+                    Travessa Belas Artes, 15 - 7º - Centro - Rio de Janeiro - RJ - CEP 20060-000 - www.mongeralaegon.com.br
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>

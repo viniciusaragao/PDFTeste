@@ -93,50 +93,90 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body { padding: 25px 0;}
-h1 { font-size: 18px; font-weight: 600; letter-spacing: 0.3px; line-height: 25px; text-transform: uppercase; margin-left: -13px;} 
-h2 { border-bottom: 2px solid #000000; font-size: 16px; line-height: 20px; text-indent: 1px; margin: 5px 3px 5px 7px; } 
+body { padding: 0 0;}
+h1 { font-size: 18px; font-weight: 600; letter-spacing: 0.3px; line-height: 25px; text-transform: uppercase; margin:5px 0 5px -13px;} 
+h2 { padding-top: 3px; border-bottom: 2px solid #000000; font-size: 16px; line-height: 20px; text-indent: 1px; margin: 5px 3px 5px 7px;clear: both; } 
 h3 { font-size: 16px; line-height: 20px; text-indent: 1px; margin: 5px 3px 5px 7px; } 
  
 
 #container { width:1000px; }
 [class*="field"] { border:1px solid #000; border-top:0px; height: 25px; float:left; margin:16px 0 0 7px; }
 [class*="50field"] { height:50px; }
+[class*="70field"] { height:70px; }
 [class*="field"] span { margin:0 6px; position: relative; top: -16px; display:block; }
 [class*="field"] span.internal { top:7px; }
 [class*="field"] span:last-child { font-size:12px;  }
 [class*="field"] ul { font-size: 14px; margin:0; list-style-type:none;   }
 [class*="field"] ul li { background: url("../img/square.png") no-repeat 2px 2px  !important; line-height: 14px; padding:0 5px 0 14px; display:inline-block; }
+
 [class*="field"] ul[class*="pull-right"] { margin: -24px 4px 0; }
+.form [class*="field"] ul li { background: none!important; }
+.form [class*="field"] ul li label { margin-bottom: -5px; }
+.form [class*="field"] ul[class*="pull-right"] { margin: -37px 4px 0;  position: relative; z-index: 9000; }
+.form input[type="radio"], 
+.form input[type="checkbox"] { margin: -4px 0 0; }
+.form [class*="field"] ul li{ padding-left: 0; }
+.form [class*="50field"] input[type="text"] {  }
+
+
+
 [class*="field"] ul[class*="pull-left"] { margin: 0 4px; position: relative; top: -6px; }
 [class*="field"] ul[class*="pull"] { display:block; }
 [class*="field"] ul[class*="pull"] li { display:block; }
 [class*="field"] ul li.checked { background: url("../img/square-checked.png") no-repeat scroll 2px 2px!important; }
 
+[class*="field"] input[type="text"], [class*="field"] input[type="text"]:focus {margin: -5px 0 0 -7px; border-radius: 0; box-shadow: 0 0 0 0; width: 100%; border: 0; background: transparent; }
+
+
+._2line { position: relative; top: -42px; }
+.logo { height: 60px; }
+.line-check { background: url("../img/square.png") no-repeat scroll 2px 6px transparent !important; margin-left: 8px; padding-left: 16px;}
+.line-check.checked { background: url("../img/square-checked.png") no-repeat scroll 2px 6px!important; }
 .sub { border-bottom: 1px solid #000000; position: relative; top: -21px; width: 50%; }
 .text { margin-right: 3px; position: relative; top: -17px; }
+.description-line { font-size: 13.5px; margin-left: 8px;clear: both; }
+.no-border { border: 0; }
+.break-page { page-break-after: always; }
+table { border: 2px solid #000; width: 992px; margin-left: 8px; }
+table tr td { border: 2px solid #000;  }
+table tbody tr > td:first-child { width: 640px; }
+#footer { text-align: center;border: 2px solid #000;border-left: 0;border-right: 0;margin-top: 50px; }
 
 .field45  { width:45px; }
+.field75  { width:75px; }
 .field100 { width:100px; }
+.field110 { width:110px; }
+.field135 { width:135px; }
 .field140 { width:140px; }
+.field150 { width:150px; }
 .field160 { width:157px; }
+.field190 { width:192px; }
 .field215 { width:214px; }
 .field240 { width:240.5px; }
+.field249 { width:249.5px; }
 .field250 { width:253px; }
+.field260 { width:260px; }
+.field270 { width:270px; }
 .field280 { width:280px; }
+.field320 { width:320px; }
 .field380 { width:380px; }
 .field395 { width:395px; }
 .field400 { width:400px; }
 .field410 { width:411px; }
 .field450 { width:450px; }
+.field540 { width:543px; }
+.field570 { width:570px; }
 .field580 { width:580px; }
 .field600 { width:600px; }
 .field700 { width:700px; }
 .field990 { width:990px; }
 
 
+[class*="dash"] { border-top:1px solid #000; height: 25px; float:left; margin:0px; text-align: center;margin: 30px 0 30px 30px; }
 
+.dash400 { width: 400px; }
 
+.form .error { border: 1px solid #B94A48;  border-top: 0; background-color: #fff;color: #B94A48; }
 
 
 

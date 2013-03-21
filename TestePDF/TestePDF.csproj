@@ -244,6 +244,7 @@
     <Content Include="ModelosDeProposta\doc\misc.md" />
     <Content Include="ModelosDeProposta\doc\TOC.md" />
     <Content Include="ModelosDeProposta\doc\usage.md" />
+    <Content Include="ModelosDeProposta\img\square-checked.png" />
     <Content Include="ModelosDeProposta\img\square.png" />
     <Content Include="ModelosDeProposta\LICENSE.md" />
     <Content Include="ModelosDeProposta\README.md" />
